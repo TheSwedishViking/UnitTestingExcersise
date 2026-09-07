@@ -8,17 +8,33 @@ namespace WordLetterCounter.Tests
 
 
         [Fact]
-        public void Count_LettersFromSentence_Returns5()
+        public void Count_WordsFromSentence_Returns5()
         {
             // Arrange
 
-            string test = "Jag gillar glass o öl";
-            int expected = 12;
+            string test = "";
+            int expected = 0;
             //Act
-            var result = _textAnalyzer.CountLetters(test);
+            var result = _textAnalyzer.CountWords(test);
             // Assert
 
-            Assert.Equal(25, result);
+            Assert.Equal(expected, result);
+        }
+
+        [Fact]
+        public void Count_LettersFromSentence_Returns21()
+        {
+            // Arrange
+            string test = "I am on the highway to hell";
+            int expected = 21;
+
+            //Act
+
+            var result = _textAnalyzer.CountLetters(test);
+
+            // Assert
+
+            Assert.Equal(expected, result);
         }
     }
 }

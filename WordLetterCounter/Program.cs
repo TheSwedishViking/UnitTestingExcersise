@@ -9,7 +9,9 @@
 
             TextAnalyzer textAnalyzer = new TextAnalyzer();
 
+            int noll = textAnalyzer.CountWords("");
             int antaletWords = textAnalyzer.CountWords(ord);
+
 
             int antaletBokstäver = textAnalyzer.CountLetters(ord);
 
