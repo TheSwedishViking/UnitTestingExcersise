@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../packageCalculator/packageCalculator.csproj" />
+  <Project Path="../PackageManager.Tests/PackageManager.Tests.csproj" Id="e9977259-7dc1-41c4-b7ba-302b94408a4e" />
   <Project Path="../WordLetterCounter.Tests/WordLetterCounter.Tests.csproj" />
   <Project Path="../WordLetterCounter/WordLetterCounter.csproj" />
   <Project Path="UnitTestingPractice.csproj" />
