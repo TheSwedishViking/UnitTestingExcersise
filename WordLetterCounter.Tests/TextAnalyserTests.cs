@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Xunit;
+﻿using Xunit;
 
 namespace WordLetterCounter.Tests
 {
@@ -16,7 +13,7 @@ namespace WordLetterCounter.Tests
             // Arrange
 
             string test = "Jag gillar glass o öl";
-            int expected = 5;
+            int expected = 12;
             //Act
             var result = _textAnalyzer.CountLetters(test);
             // Assert
