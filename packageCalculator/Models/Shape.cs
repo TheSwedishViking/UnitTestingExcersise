@@ -20,6 +20,8 @@ namespace packageCalculator.Models
 
         public override double Price => CalculatePrice();
 
+
+
         public double CalculatePrice()
         {
             Calculation.Calculator calculator = new Calculator();
@@ -40,27 +42,6 @@ namespace packageCalculator.Models
         {
             Calculation.Calculator calculator = new Calculator();
             return calculator.CalculateCube(this);
-
-            //ShortSide* LongSide *Weight + 100;
-            if (LongSide <= 30)
-            {
-                switch (Weight)
-                {
-                    case double d when d <= 2:
-                        return 29;
-                    case double d when d > 2 && d <= 10:
-                        return 49;
-                    case double d when d > 10 && d <= 20:
-                        return 79;
-                    default:
-                        return ShortSide * LongSide * Weight + 100;
-                }
-            }
-            else
-            {
-                return ShortSide * LongSide * Weight + 100;
-            }
-
 
 
         }
