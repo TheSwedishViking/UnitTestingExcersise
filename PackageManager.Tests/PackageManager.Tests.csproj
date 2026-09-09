@@ -19,4 +19,8 @@
     <ProjectReference Include="..\packageCalculator\packageCalculator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DataServices\" />
+  </ItemGroup>
+
 </Project>
