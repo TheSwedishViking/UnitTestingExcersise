@@ -3,8 +3,7 @@
     "cubicPackage": {
       "weight": 1,
       "shortSide": 5,
-      "longSide": 25,
-      "price": 29
+      "longSide": 25
     },
     "expected": 25
   }

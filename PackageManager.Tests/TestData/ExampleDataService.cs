@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace PackageManager.Tests.TestData
 {
@@ -47,9 +48,11 @@ namespace PackageManager.Tests.TestData
         private class CubicPackageCase
         {
             //Basic real package
+            [JsonPropertyName("cubicPackage")]
             public CubicPackage Package { get; set; }
 
             //Expected for testing
+            [JsonPropertyName("expected")]
             public int ExpectedPrice { get; set; }
         }
     }
