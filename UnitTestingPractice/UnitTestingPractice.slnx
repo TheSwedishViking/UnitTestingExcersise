@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="../BankApplicationTDD.Tests/BankApplicationTDD.Tests.csproj" Id="63780834-95b3-4d79-a2ad-236850a83e1a" />
+  <Project Path="../BankApplicationTDD/BankApplicationTDD.csproj" Id="0621bb49-c0ed-418b-ac31-22812c5eb241" />
   <Project Path="../packageCalculator/packageCalculator.csproj" />
   <Project Path="../PackageManager.Tests/PackageManager.Tests.csproj" Id="e9977259-7dc1-41c4-b7ba-302b94408a4e" />
   <Project Path="../TDDprogram/TDDprogram.csproj" Id="ebdd9fcc-7201-4163-b3aa-4a9147af7b30" />
