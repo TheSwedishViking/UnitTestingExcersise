@@ -1,0 +1,11 @@
+[
+  {
+    "cubicPackage": {
+      "weight": 1,
+      "shortSide": 5,
+      "longSide": 25
+    },
+    "expected": 25
+  }
+  
+]
