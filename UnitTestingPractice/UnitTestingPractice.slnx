@@ -1,6 +1,8 @@
 <Solution>
   <Project Path="../packageCalculator/packageCalculator.csproj" />
   <Project Path="../PackageManager.Tests/PackageManager.Tests.csproj" Id="e9977259-7dc1-41c4-b7ba-302b94408a4e" />
+  <Project Path="../TDDprogram/TDDprogram.csproj" Id="ebdd9fcc-7201-4163-b3aa-4a9147af7b30" />
+  <Project Path="../TDDtests/TDDtests.csproj" Id="fe68ed85-045a-4000-a91c-3e1f748f828c" />
   <Project Path="../WordLetterCounter.Tests/WordLetterCounter.Tests.csproj" />
   <Project Path="../WordLetterCounter/WordLetterCounter.csproj" />
   <Project Path="UnitTestingPractice.csproj" />
